@@ -16,7 +16,7 @@ const checkWorkingHours = (startOfTheworkingDay,endOfTheWorkingDay,startTimeOfTh
     return false;
   }return true;
 };
-checkWorkingHours('8:0', '10:0', '8:0', 120);
+checkWorkingHours('08:00', '17:30', '17:00', 90);
 
 // имяФункции('08:00', '17:30', '14:00', 90); // true
 // имяФункции('8:0', '10:0', '8:0', 120);     // true
